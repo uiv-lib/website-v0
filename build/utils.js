@@ -110,14 +110,16 @@ const getDocumentRoutes = () => {
   routesCode = routesCode
     .replace(/import\('[\S\s].*?'\)/ig, 'null')
     .replace(/export default[\S\s].*?;/, '')
-  var routes = []
-  eval(routesCode)
+    .replace('var routes = ', '')
+    .replace(/\/\/.*/g, '')
+  const routes = eval(routesCode)
   return routes.map(v => v.path)
 }
 
 exports.generateRenderPlugins = () => {
   let paths = getDocumentRoutes()
   let distPath = path.join(__dirname, './../dist')
+  console.log(paths)
   return [
     new PrerenderSpaPlugin({
         staticDir: distPath,
