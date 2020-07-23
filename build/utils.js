@@ -106,7 +106,7 @@ exports.createNotifierCallback = () => {
 
 // Get routes array from /docs/router/routes.js
 const getDocumentRoutes = () => {
-  let routesCode = babel.transformFileSync(path.join(__dirname, '../docs/router/routes.js')).code
+  let routesCode = babel.transformFileSync(path.join(__dirname, '../src/router/routes.js')).code
   routesCode = routesCode
     .replace(/import\('[\S\s].*?'\)/ig, 'null')
     .replace(/export default[\S\s].*?;/, '')
@@ -117,7 +117,7 @@ const getDocumentRoutes = () => {
 
 exports.generateRenderPlugins = () => {
   let paths = getDocumentRoutes()
-  let distPath = path.join(__dirname, './../dist-docs')
+  let distPath = path.join(__dirname, './../dist')
   return [
     new PrerenderSpaPlugin({
         staticDir: distPath,
@@ -128,7 +128,7 @@ exports.generateRenderPlugins = () => {
       }
     ),
     new SitemapPlugin(
-      'https://uiv.wxsm.space',
+      'https://uiv-v0.wxsm.space',
       paths.map(path => path === '/' ? path : path + '/'),
       {
         changeFreq: 'weekly'

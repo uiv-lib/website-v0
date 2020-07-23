@@ -240,7 +240,7 @@ Pass a locale object to `locale` for custom translations of month and weekday na
   </section>
 </template>
 <script>
-  import localeHU from '../../../src/locale/lang/hu-HU'
+  import localeHU from 'uiv/src/locale/lang/hu-HU'
   export default {
     data () {
       return {

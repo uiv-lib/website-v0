@@ -61,7 +61,7 @@ module.exports = {
             }
           }
         ],
-        include: [resolve('docs')]
+        include: [resolve('src')]
       },
       {
         test: /\.js$/,
