@@ -8,8 +8,6 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
@@ -35,6 +33,35 @@ module.exports = {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: vueLoaderConfig
+      },
+      {
+        test: /\.md$/,
+        loaders: [
+          'vue-loader',
+          {
+            loader: 'vue-md-loader',
+            options: {
+              wrapper: 'markdown-wrapper',
+              afterProcessLiveTemplate (template) {
+                return `<div class="markdown-live-example">${template}</div>`
+              },
+              rules: {
+                'table_open': () => '<div class="table-responsive"><table class="table table-bordered table-hover">',
+                'table_close': () => '</table></div>'
+              },
+              plugins: [
+                [
+                  require('markdown-it-anchor'),
+                  {
+                    permalink: true,
+                    permalinkSymbol: '&#128279;'
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        include: [resolve('docs')]
       },
       {
         test: /\.js$/,
