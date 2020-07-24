@@ -113,7 +113,7 @@ Displays a dialog with an optional message prompting the user to input some text
 ## Global methods
 
 Following global methods for `Vue.prototype` will be added **if uiv is installed**:
- 
+
 * `$alert(options, callback(msg))`
 * `$confirm(options, callback(err, msg))`
 * `$prompt(options, callback(err, msg))`
@@ -147,7 +147,7 @@ Vue.prototype.$alert = MessageBox.alert
 
 # API Reference
 
-## [MessageBox](https://github.com/wxsms/uiv/blob/master/src/services/messagebox/MessageBox.vue)
+## [MessageBox](https://github.com/uiv-lib/uiv/blob/0.x/src/services/messagebox/MessageBox.vue)
 
 These props are used as `options` in the methods above.
 

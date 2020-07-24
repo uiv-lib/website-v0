@@ -72,7 +72,7 @@
         })
       return {
         asideItems: [
-          {label: 'Changelog', href: 'https://github.com/wxsms/uiv/releases'},
+          {label: 'Changelog', href: 'https://github.com/uiv-lib/uiv/releases'},
           {label: 'Usage', items: routes.filter(v => v.meta && v.meta.type === 'usage')},
           {label: 'Components', items: groups}
         ]

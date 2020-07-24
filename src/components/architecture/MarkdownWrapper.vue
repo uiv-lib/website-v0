@@ -96,7 +96,7 @@
         return this.$route.meta && this.$route.meta.url
       },
       docUrlFull () {
-        return `https://github.com/wxsms/uiv/blob/master/docs/pages/${this.docUrl}`
+        return `https://github.com/uiv-lib/uiv/blob/0.x/docs/pages/${this.docUrl}`
       }
     },
     mounted () {

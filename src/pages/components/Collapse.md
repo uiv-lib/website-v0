@@ -102,7 +102,7 @@ Extend the default collapse behavior to create an accordion with the panel compo
 
 # API Reference
 
-## [Collapse](https://github.com/wxsms/uiv/blob/master/src/components/collapse/Collapse.vue)
+## [Collapse](https://github.com/uiv-lib/uiv/blob/0.x/src/components/collapse/Collapse.vue)
 
 ### Props
 

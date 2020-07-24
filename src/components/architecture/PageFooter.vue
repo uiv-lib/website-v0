@@ -1,7 +1,7 @@
 <template>
   <section class="page-footer">
     <p>Designed and built by <a href="https://github.com/wxsms">@wxsm</a></p>
-    <p>Code under <a href="https://github.com/wxsms/uiv/blob/master/LICENSE">MIT License</a></p>
+    <p>Code under <a href="https://github.com/uiv-lib/uiv/blob/0.x/LICENSE">MIT License</a></p>
     <p>Document under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
   </section>
 </template>

@@ -5,11 +5,11 @@
       <br/>
       <br/>
       <p>
-        <a href="https://travis-ci.org/wxsms/uiv">
-          <img src="https://travis-ci.org/wxsms/uiv.svg?branch=master" alt="Build Status">
+        <a href="https://travis-ci.org/uiv-lib/uiv">
+          <img src="https://travis-ci.org/uiv-lib/uiv.svg?branch=0.x" alt="Build Status">
         </a>
-        <a href="https://coveralls.io/github/wxsms/uiv?branch=master">
-          <img src="https://coveralls.io/repos/github/wxsms/uiv/badge.svg?branch=master" alt="Coverage Status">
+        <a href="https://coveralls.io/github/uiv-lib/uiv?branch=0.x">
+          <img src="https://coveralls.io/repos/github/uiv-lib/uiv/badge.svg?branch=0.x" alt="Coverage Status">
         </a>
         <a href="https://www.npmjs.com/package/uiv">
           <img src="https://img.shields.io/npm/dm/uiv.svg" alt="NPM Downloads">
@@ -17,8 +17,8 @@
         <a href="https://www.npmjs.com/package/uiv">
           <img src="https://img.shields.io/npm/v/uiv.svg" alt="NPM Version">
         </a>
-        <a href="https://github.com/wxsms/uiv">
-          <img src="https://img.shields.io/github/license/wxsms/uiv.svg" alt="License">
+        <a href="https://github.com/uiv-lib/uiv">
+          <img src="https://img.shields.io/github/license/uiv-lib/uiv.svg" alt="License">
         </a>
       </p>
       <h1 class="page-header">uiv</h1>
@@ -26,7 +26,7 @@
       <br/>
       <div>
         <btn to="/getting-started" size="lg">Getting Started</btn>
-        <btn href="https://github.com/wxsms/uiv" size="lg">Github</btn>
+        <btn href="https://github.com/uiv-lib/uiv" size="lg">Github</btn>
       </div>
       <br/>
       <br/>

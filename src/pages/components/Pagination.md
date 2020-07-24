@@ -28,7 +28,7 @@ Use `v-model` (1-based) to indicate the current page.
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-example.vue -->
 ```
 
@@ -53,7 +53,7 @@ Fancy larger or smaller pagination? Add `size="lg"` or `size="sm"` for additiona
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-sizing.vue -->
 ```
 
@@ -78,7 +78,7 @@ By default the pagination component is left aligned. Change the alignment to cen
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-alignment.vue -->
 ```
 
@@ -102,7 +102,7 @@ By default `direction-links` are enabled, which allows users to nav to previous 
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-direction-links.vue -->
 ```
 
@@ -123,7 +123,7 @@ Add `boundary-links` to allow fast nav to the first or last page.
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-boundary-links.vue -->
 ```
 
@@ -148,7 +148,7 @@ Use `max-size` to define the maximum chunk size of pagers (default is 5). And if
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-chunks.vue -->
 ```
 
@@ -167,13 +167,13 @@ Use `max-size` to define the maximum chunk size of pagers (default is 5). And if
       }
     }
   }
-</script> 
+</script>
 <!-- pagination-disabled.vue -->
 ```
 
 # API Reference
 
-## [Pagination](https://github.com/wxsms/uiv/blob/master/src/components/pagination/Pagination.vue)
+## [Pagination](https://github.com/uiv-lib/uiv/blob/0.x/src/components/pagination/Pagination.vue)
 
 ### Props
 

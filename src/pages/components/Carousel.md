@@ -64,7 +64,7 @@
 
 ## Override indicators
 
-Use the `indicators` slot to override default Bootstrap indicators. 
+Use the `indicators` slot to override default Bootstrap indicators.
 
 This is a scoped slot, use `slot-scope="props"` in Vue 2.5+, otherwise `scope="props"`.
 
@@ -121,7 +121,7 @@ This is a scoped slot, use `slot-scope="props"` in Vue 2.5+, otherwise `scope="p
 * `glyphicon glyphicon-chevron-left` and `glyphicon glyphicon-chevron-right` (default)
 * `icon-prev` and `icon-next`
 
-Additional CSS may needed if you prefer other icons or font... 
+Additional CSS may needed if you prefer other icons or font...
 
 Here is an example using `glyphicon-arrow-left` and `glyphicon-arrow-right`.
 
@@ -163,7 +163,7 @@ Here is an example using `glyphicon-arrow-left` and `glyphicon-arrow-right`.
 
 # API Reference
 
-## [Carousel](https://github.com/wxsms/uiv/blob/master/src/components/carousel/Carousel.vue)
+## [Carousel](https://github.com/uiv-lib/uiv/blob/0.x/src/components/carousel/Carousel.vue)
 
 ### Props
 

@@ -174,7 +174,7 @@ Set `show-delay`/`hide-delay` (ms), to delay the showing/hiding of the popover.
 
 # API Reference
 
-## [Popover](https://github.com/wxsms/uiv/blob/master/src/components/popover/Popover.vue)
+## [Popover](https://github.com/uiv-lib/uiv/blob/0.x/src/components/popover/Popover.vue)
 
 ### Props
 
@@ -211,7 +211,7 @@ Name        | Params | Description
 `show`      |        | Fire after popover show.
 `hide`      |        | Fire after popover hide.
 
-### [Directive](https://github.com/wxsms/uiv/blob/master/src/directives/popover/popover.js)
+### [Directive](https://github.com/uiv-lib/uiv/blob/0.x/src/directives/popover/popover.js)
 
 The binding value will be the title and text content of corresponding popover.
 

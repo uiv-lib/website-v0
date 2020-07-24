@@ -346,7 +346,7 @@ Otherwise, you can simply nest them logically, without any extra settings:
 
 # API Reference
 
-## [Modal](https://github.com/wxsms/uiv/blob/master/src/components/modal/Modal.vue)
+## [Modal](https://github.com/uiv-lib/uiv/blob/0.x/src/components/modal/Modal.vue)
 
 ### Props
 

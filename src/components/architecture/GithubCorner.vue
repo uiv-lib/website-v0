@@ -1,5 +1,5 @@
 <template>
-  <a href="https://github.com/wxsms/uiv" class="github-corner hidden-xs" aria-label="View source on Github">
+  <a href="https://github.com/uiv-lib/uiv" class="github-corner hidden-xs" aria-label="View source on Github">
     <svg
       width="80"
       height="80"

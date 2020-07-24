@@ -163,7 +163,7 @@ Modify the look of the navbar by adding `inverse` prop.
 
 # API Reference
 
-## [Navbar](https://github.com/wxsms/uiv/blob/master/src/components/navbar/Navbar.vue)
+## [Navbar](https://github.com/uiv-lib/uiv/blob/0.x/src/components/navbar/Navbar.vue)
 
 ### Props
 
@@ -185,7 +185,7 @@ Name             | Description
 `brand`          | The navbar brand.
 `collapse-btn`   | Use this slot to override the default collapse button.
 
-## [NavbarNav](https://github.com/wxsms/uiv/blob/master/src/components/navbar/NavbarNav.js)
+## [NavbarNav](https://github.com/uiv-lib/uiv/blob/0.x/src/components/navbar/NavbarNav.js)
 
 ### Props
 
@@ -194,7 +194,7 @@ Name           | Type       | Default  | Required | Description
 `left`         | Boolean    | false    |          | Pull content to left.
 `right`        | Boolean    | false    |          | Pull content to right.
 
-## [NavbarForm](https://github.com/wxsms/uiv/blob/master/src/components/navbar/NavbarForm.js)
+## [NavbarForm](https://github.com/uiv-lib/uiv/blob/0.x/src/components/navbar/NavbarForm.js)
 
 ### Props
 
@@ -203,7 +203,7 @@ Name           | Type       | Default  | Required | Description
 `left`         | Boolean    | false    |          | Pull content to left.
 `right`        | Boolean    | false    |          | Pull content to right.
 
-## [NavbarText](https://github.com/wxsms/uiv/blob/master/src/components/navbar/NavbarText.js)
+## [NavbarText](https://github.com/uiv-lib/uiv/blob/0.x/src/components/navbar/NavbarText.js)
 
 ### Props
 

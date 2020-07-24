@@ -186,7 +186,7 @@ The corresponding method is `Notification.notify`, with same parameters as above
 
 # API Reference
 
-## [Notification](https://github.com/wxsms/uiv/blob/master/src/services/notification/Notification.vue)
+## [Notification](https://github.com/uiv-lib/uiv/blob/0.x/src/services/notification/Notification.vue)
 
 These props are used as `options` in the methods above.
 

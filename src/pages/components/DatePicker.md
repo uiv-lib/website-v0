@@ -255,7 +255,7 @@ Pass a locale object to `locale` for custom translations of month and weekday na
 
 # API Reference
 
-## [DatePicker](https://github.com/wxsms/uiv/blob/master/src/components/datepicker/DatePicker.vue)
+## [DatePicker](https://github.com/uiv-lib/uiv/blob/0.x/src/components/datepicker/DatePicker.vue)
 
 ### Props
 
