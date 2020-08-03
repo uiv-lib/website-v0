@@ -32,7 +32,7 @@ Vue.use(uiv)
 // apply google analytics only on production mode
 if (process.env && process.env.NODE_ENV === 'production') {
   Vue.use(VueAnalytics, {
-    id: 'UA-102731925-2',
+    id: 'UA-102731925-3',
     router,
     autoTracking: {
       skipSamePath: true
