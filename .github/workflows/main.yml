@@ -14,7 +14,7 @@ jobs:
       - name: Cache node modules
         uses: actions/cache@v2
         env:
-         cache-name: cache-node-modules
+          cache-name: cache-node-modules
         with:
           path: ~/.npm
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
@@ -22,10 +22,15 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+      - name: Install
+        run: yarn --frozen-lockfile
+      - name: Build
+        uses: ianwalter/puppeteer-container@v4.0.0
+        with:
+          args: npm run build
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
-          BUILD_SCRIPT: yarn --frozen-lockfile && npm run build
