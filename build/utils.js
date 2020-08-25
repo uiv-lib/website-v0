@@ -125,7 +125,11 @@ exports.generateRenderPlugins = () => {
         staticDir: distPath,
         routes: paths,
         renderer: new Renderer({
-          maxConcurrentRoutes: 5
+          maxConcurrentRoutes: 5,
+          headless: true,
+          args: [
+            `--no-sandbox`
+          ]
         })
       }
     ),
