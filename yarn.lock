@@ -7057,10 +7057,10 @@ uglifyjs-webpack-plugin@^0.4.6:
     uglify-js "^2.8.29"
     webpack-sources "^1.0.1"
 
-uiv@0.36.0:
-  version "0.36.0"
-  resolved "https://registry.npm.taobao.org/uiv/download/uiv-0.36.0.tgz#0b246de1f97c85f5bb783083a65f1a8e9f9a74ef"
-  integrity sha1-CyRt4fl8hfW7eDCDpl8ajp+adO8=
+uiv@0.37.0:
+  version "0.37.0"
+  resolved "https://registry.npm.taobao.org/uiv/download/uiv-0.37.0.tgz#a38ac511612ca9d4ead1b379b44cdca872ebd63e"
+  integrity sha1-o4rFEWEsqdTq0bN5tEzcqHLr1j4=
   dependencies:
     portal-vue "^2.1.7"
     vue-functional-data-merge "^2.0.3"
