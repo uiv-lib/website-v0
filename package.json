@@ -16,7 +16,7 @@
     "highlight.js": "10.2.1",
     "lodash": "4.17.20",
     "nprogress": "0.2.0",
-    "uiv": "0.37.0",
+    "uiv": "1.1.1",
     "vue": "2.6.12",
     "vue-analytics": "5.22.1",
     "vue-router": "3.4.6"
