@@ -41,7 +41,7 @@
     "less-loader": "7.0.2",
     "markdown-it-anchor": "6.0.0",
     "mini-css-extract-plugin": "1.0.0",
-    "node-notifier": "5.4.3",
+    "node-notifier": "8.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.4",
     "ora": "5.1.0",
     "portfinder": "1.0.28",
