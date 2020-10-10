@@ -47,7 +47,7 @@
     "portfinder": "1.0.28",
     "postcss-import": "11.1.0",
     "postcss-loader": "2.1.6",
-    "postcss-url": "7.3.2",
+    "postcss-url": "8.0.0",
     "prerender-spa-plugin": "3.4.0",
     "rimraf": "3.0.2",
     "semver": "5.7.1",
