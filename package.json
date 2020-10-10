@@ -10,7 +10,7 @@
     "build": "node build/build.js && node build/build-dist-config.js"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.20.0",
     "bootstrap": "3.4.1",
     "es6-promise": "4.2.8",
     "highlight.js": "10.1.1",
