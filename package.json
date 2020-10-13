@@ -33,7 +33,7 @@
     "babel-preset-stage-2": "6.24.1",
     "chalk": "4.1.0",
     "copy-webpack-plugin": "6.2.1",
-    "css-loader": "1.0.1",
+    "css-loader": "5.0.0",
     "file-loader": "6.1.1",
     "friendly-errors-webpack-plugin": "1.7.0",
     "html-webpack-plugin": "4.5.0",
