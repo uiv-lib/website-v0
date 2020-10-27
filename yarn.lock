@@ -495,6 +495,11 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
+argparse@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/argparse/download/argparse-2.0.1.tgz#246f50f3ca78a3240f6c997e8a9bd1eac49e4b38"
+  integrity sha1-JG9Q88p4oyQPbJl+ipvR6sSeSzg=
+
 arr-diff@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/arr-diff/download/arr-diff-4.0.0.tgz#d6461074febfec71e7e15235761a329a5dc7c520"
@@ -4355,12 +4360,12 @@ markdown-it-anchor@6.0.0:
   resolved "https://registry.npm.taobao.org/markdown-it-anchor/download/markdown-it-anchor-6.0.0.tgz#2ec2554fa4d065f2d1ca2422a50c14c10cf67c2a"
   integrity sha1-LsJVT6TQZfLRyiQipQwUwQz2fCo=
 
-markdown-it@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.npm.taobao.org/markdown-it/download/markdown-it-11.0.0.tgz#dbfc30363e43d756ebc52c38586b91b90046b876"
-  integrity sha1-2/wwNj5D11brxSw4WGuRuQBGuHY=
+markdown-it@^12.0.0:
+  version "12.0.2"
+  resolved "https://registry.npm.taobao.org/markdown-it/download/markdown-it-12.0.2.tgz#4401beae8df8aa2221fc6565a7188e60a06ef0ed"
+  integrity sha1-RAG+ro34qiIh/GVlpxiOYKBu8O0=
   dependencies:
-    argparse "^1.0.7"
+    argparse "^2.0.1"
     entities "~2.0.0"
     linkify-it "^3.0.1"
     mdurl "^1.0.1"
@@ -7212,14 +7217,14 @@ vue-loader@14.2.4:
     vue-style-loader "^4.0.1"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-md-loader@1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npm.taobao.org/vue-md-loader/download/vue-md-loader-1.1.4.tgz#a3de7ba39232a8e2ad68b00610183a4323718cff"
-  integrity sha1-o957o5IyqOKtaLAGEBg6QyNxjP8=
+vue-md-loader@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.npm.taobao.org/vue-md-loader/download/vue-md-loader-1.1.5.tgz?cache=0&sync_timestamp=1603690182247&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-md-loader%2Fdownload%2Fvue-md-loader-1.1.5.tgz#41b7783af042065ed77fcd9aa2ee4ff04d34e61c"
+  integrity sha1-Qbd4OvBCBl7Xf82aou5P8E005hw=
   dependencies:
     highlight.js "^10.0.3"
     loader-utils "^2.0.0"
-    markdown-it "^11.0.0"
+    markdown-it "^12.0.0"
 
 vue-router@3.4.7:
   version "3.4.7"
