@@ -6418,10 +6418,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sitemap-webpack-plugin@0.8.1:
-  version "0.8.1"
-  resolved "https://registry.npmjs.org/sitemap-webpack-plugin/-/sitemap-webpack-plugin-0.8.1.tgz#ec5fde2aa4308f3d559772df8f77f273de06301b"
-  integrity sha512-E2vQkF2afgo4Mlfe+KvGGk4xYJmGdBI8mjJX7n9NM41g2ulPJhan5DW3s1ri9wduoWO4mzXfZN/CFDtvke4RFA==
+sitemap-webpack-plugin@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npm.taobao.org/sitemap-webpack-plugin/download/sitemap-webpack-plugin-0.9.0.tgz?cache=0&sync_timestamp=1604080212761&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsitemap-webpack-plugin%2Fdownload%2Fsitemap-webpack-plugin-0.9.0.tgz#8edece8365fee8075a04d8a239946a0fc2d38d03"
+  integrity sha1-jt7Og2X+6AdaBNiiOZRqD8LTjQM=
   dependencies:
     sitemap "^6.0.0"
     webpack-sources "^1.4.3"
