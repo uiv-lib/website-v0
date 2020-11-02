@@ -7217,10 +7217,10 @@ vue-loader@14.2.4:
     vue-style-loader "^4.0.1"
     vue-template-es2015-compiler "^1.6.0"
 
-vue-md-loader@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.npm.taobao.org/vue-md-loader/download/vue-md-loader-1.1.5.tgz?cache=0&sync_timestamp=1603690182247&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-md-loader%2Fdownload%2Fvue-md-loader-1.1.5.tgz#41b7783af042065ed77fcd9aa2ee4ff04d34e61c"
-  integrity sha1-Qbd4OvBCBl7Xf82aou5P8E005hw=
+vue-md-loader@1.1.6:
+  version "1.1.6"
+  resolved "https://registry.npm.taobao.org/vue-md-loader/download/vue-md-loader-1.1.6.tgz#cce313c69f2fcf6bce750506210fb54509eb1346"
+  integrity sha1-zOMTxp8vz2vOdQUGIQ+1RQnrE0Y=
   dependencies:
     highlight.js "^10.0.3"
     loader-utils "^2.0.0"
