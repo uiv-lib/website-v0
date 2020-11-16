@@ -130,12 +130,14 @@ exports.generateRenderPlugins = () => {
         })
       }
     ),
-    new SitemapPlugin(
-      'https://uiv-v0.wxsm.space',
-      paths.map(path => path === '/' ? path : path + '/'),
-      {
-        changeFreq: 'weekly'
-      }
-    )
+    new SitemapPlugin({
+      base: 'https://uiv-v0.wxsm.space',
+      paths: paths.map(path => {
+        return {
+          path: path === '/' ? path : path + '/',
+          changeFreq: 'weekly'
+        }
+      })
+    })
   ]
 }
