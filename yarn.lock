@@ -2310,7 +2310,7 @@ csso@^4.0.2:
   dependencies:
     css-tree "1.0.0-alpha.39"
 
-cuint@latest:
+cuint@^0.2.2:
   version "0.2.2"
   resolved "https://registry.npm.taobao.org/cuint/download/cuint-0.2.2.tgz#408086d409550c2631155619e9fa7bcadc3b991b"
   integrity sha1-QICG1AlVDCYxFVYZ6fp7ytw7mRs=
@@ -4483,12 +4483,7 @@ mime@1.6.0, mime@^1.4.1:
   resolved "https://registry.npm.taobao.org/mime/download/mime-1.6.0.tgz?cache=0&sync_timestamp=1590635592890&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE=
 
-mime@2.3.1:
-  version "2.3.1"
-  resolved "https://registry.npm.taobao.org/mime/download/mime-2.3.1.tgz?cache=0&sync_timestamp=1590596834295&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-2.3.1.tgz#b1621c54d63b97c47d3cfe7f7215f7d64517c369"
-  integrity sha1-sWIcVNY7l8R9PP5/chX31kUXw2k=
-
-mime@^2.0.3, mime@^2.4.4:
+mime@2.4.6, mime@^2.0.3, mime@^2.4.4:
   version "2.4.6"
   resolved "https://registry.npm.taobao.org/mime/download/mime-2.4.6.tgz?cache=0&sync_timestamp=1590596834295&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmime%2Fdownload%2Fmime-2.4.6.tgz#e5b407c90db442f2beb5b162373d07b69affa4d1"
   integrity sha1-5bQHyQ20QvK+tbFiNz0Htpr/pNE=
@@ -5648,15 +5643,15 @@ postcss-unique-selectors@^4.0.1:
     postcss "^7.0.0"
     uniqs "^2.0.0"
 
-postcss-url@10.1.0:
-  version "10.1.0"
-  resolved "https://registry.npm.taobao.org/postcss-url/download/postcss-url-10.1.0.tgz?cache=0&sync_timestamp=1604503881241&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss-url%2Fdownload%2Fpostcss-url-10.1.0.tgz#b64872ef15c6643e13928aa084c21023a36f0948"
-  integrity sha1-tkhy7xXGZD4TkoqghMIQI6NvCUg=
+postcss-url@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.npm.taobao.org/postcss-url/download/postcss-url-10.1.1.tgz#f58b4ec684a7b662c170357150eddcbc04cefa24"
+  integrity sha1-9YtOxoSntmLBcDVxUO3cvATO+iQ=
   dependencies:
     make-dir "3.1.0"
-    mime "2.3.1"
+    mime "2.4.6"
     minimatch "3.0.4"
-    xxhashjs "0.2.1"
+    xxhashjs "0.2.2"
 
 postcss-value-parser@^3.0.0, postcss-value-parser@^3.3.0:
   version "3.3.1"
@@ -7506,12 +7501,12 @@ xtend@^4.0.0, xtend@~4.0.1:
   resolved "https://registry.npm.taobao.org/xtend/download/xtend-4.0.2.tgz?cache=0&sync_timestamp=1589682817913&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fxtend%2Fdownload%2Fxtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q=
 
-xxhashjs@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npm.taobao.org/xxhashjs/download/xxhashjs-0.2.1.tgz#9bbe9be896142976dfa34c061b2d068c43d30de0"
-  integrity sha1-m76b6JYUKXbfo0wGGy0GjEPTDeA=
+xxhashjs@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.npm.taobao.org/xxhashjs/download/xxhashjs-0.2.2.tgz#8a6251567621a1c46a5ae204da0249c7f8caa9d8"
+  integrity sha1-imJRVnYhocRqWuIE2gJJx/jKqdg=
   dependencies:
-    cuint latest
+    cuint "^0.2.2"
 
 y18n@^4.0.0:
   version "4.0.0"
