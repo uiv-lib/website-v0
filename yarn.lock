@@ -5638,15 +5638,14 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "https://registry.npm.taobao.org/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
-postcss@8.1.11:
-  version "8.1.11"
-  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.1.11.tgz?cache=0&sync_timestamp=1606958053716&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-8.1.11.tgz#e3bc521cc268107e7be768c76a2f479a08284914"
-  integrity sha1-47xSHMJoEH5752jHai9HmggoSRQ=
+postcss@8.1.14:
+  version "8.1.14"
+  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.1.14.tgz?cache=0&sync_timestamp=1607041288459&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-8.1.14.tgz#77d6a5db2fdc0afa918e24af5323a53fb8727f2e"
+  integrity sha1-d9al2y/cCvqRjiSvUyOlP7hyfy4=
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
     source-map "^0.6.1"
-    vfile-location "^3.2.0"
 
 postcss@^6.0.1, postcss@^6.0.23, postcss@^6.0.8:
   version "6.0.23"
@@ -7128,11 +7127,6 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.npm.taobao.org/vendors/download/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha1-4rgApT56Kbk1BsPPQRANFsTErY4=
-
-vfile-location@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npm.taobao.org/vfile-location/download/vfile-location-3.2.0.tgz#d8e41fbcbd406063669ebf6c33d56ae8721d0f3c"
-  integrity sha1-2OQfvL1AYGNmnr9sM9Vq6HIdDzw=
 
 vm-browserify@^1.0.1:
   version "1.1.2"
