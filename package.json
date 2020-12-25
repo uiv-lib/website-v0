@@ -13,7 +13,7 @@
     "axios": "0.21.1",
     "bootstrap": "3.4.1",
     "es6-promise": "4.2.8",
-    "highlight.js": "10.4.1",
+    "highlight.js": "10.5.0",
     "lodash": "4.17.20",
     "nprogress": "0.2.0",
     "uiv": "0.37.0",
