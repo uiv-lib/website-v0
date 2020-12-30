@@ -15,7 +15,7 @@ jobs:
           ref: master
       - uses: c-hive/gha-yarn-cache@v1
       - name: Install
-        run: yarn --frozen-lockfile
+        run: PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn --frozen-lockfile
       - name: Build
         uses: ianwalter/puppeteer-container@v4.0.0
         with:
