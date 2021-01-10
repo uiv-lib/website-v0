@@ -5662,10 +5662,10 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "https://registry.npm.taobao.org/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
-postcss@8.2.3:
-  version "8.2.3"
-  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.2.3.tgz?cache=0&sync_timestamp=1610019519217&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-8.2.3.tgz#14ed1294850c99661761d9cb68863718eb75690d"
-  integrity sha1-FO0SlIUMmWYXYdnLaIY3GOt1aQ0=
+postcss@8.2.4:
+  version "8.2.4"
+  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.2.4.tgz?cache=0&sync_timestamp=1610186203092&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-8.2.4.tgz#20a98a39cf303d15129c2865a9ec37eda0031d04"
+  integrity sha1-IKmKOc8wPRUSnChlqew37aADHQQ=
   dependencies:
     colorette "^1.2.1"
     nanoid "^3.1.20"
