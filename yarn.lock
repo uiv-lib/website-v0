@@ -3590,9 +3590,9 @@ human-signals@^2.1.0:
   resolved "https://registry.npm.taobao.org/human-signals/download/human-signals-2.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhuman-signals%2Fdownload%2Fhuman-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha1-3JH8ukLk0G5Kuu0zs+ejwC9RTqA=
 
-iconv-lite@0.4.24:
+iconv-lite@0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
-  resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz?cache=0&sync_timestamp=1594184264130&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ficonv-lite%2Fdownload%2Ficonv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
+  resolved "https://registry.npm.taobao.org/iconv-lite/download/iconv-lite-0.4.24.tgz?cache=0&sync_timestamp=1594184589720&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ficonv-lite%2Fdownload%2Ficonv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   integrity sha1-ICK0sl+93CHS9SSXSkdKr+czkIs=
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
@@ -4167,10 +4167,10 @@ less-loader@7.2.1:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-less@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/less/download/less-4.0.0.tgz#d238cc25576c1f722794dbca4ac82e5e3c7e9e65"
-  integrity sha1-0jjMJVdsH3InlNvKSsguXjx+nmU=
+less@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/less/download/less-4.1.0.tgz#a12708d1951239db1c9d7eaa405f1ebac9a75b8d"
+  integrity sha1-oScI0ZUSOdscnX6qQF8eusmnW40=
   dependencies:
     copy-anything "^2.0.1"
     parse-node-version "^1.0.1"
@@ -4181,7 +4181,7 @@ less@4.0.0:
     image-size "~0.5.0"
     make-dir "^2.1.0"
     mime "^1.4.1"
-    native-request "^1.0.5"
+    needle "^2.5.2"
     source-map "~0.6.0"
 
 lines-and-columns@^1.1.6:
@@ -4667,10 +4667,14 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-request@^1.0.5:
-  version "1.0.7"
-  resolved "https://registry.npm.taobao.org/native-request/download/native-request-1.0.7.tgz#ff742dc555b4c8f2f1c14b548639ba174e573856"
-  integrity sha1-/3QtxVW0yPLxwUtUhjm6F05XOFY=
+needle@^2.5.2:
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/needle/download/needle-2.6.0.tgz#24dbb55f2509e2324b4a99d61f413982013ccdbe"
+  integrity sha1-JNu1XyUJ4jJLSpnWH0E5ggE8zb4=
+  dependencies:
+    debug "^3.2.6"
+    iconv-lite "^0.4.4"
+    sax "^1.2.4"
 
 negotiator@0.6.2:
   version "0.6.2"
