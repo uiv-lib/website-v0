@@ -7208,10 +7208,10 @@ vue-md-loader@1.1.7:
     loader-utils "^2.0.0"
     markdown-it "^12.0.0"
 
-vue-router@3.4.9:
-  version "3.4.9"
-  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.4.9.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.4.9.tgz#c016f42030ae2932f14e4748b39a1d9a0e250e66"
-  integrity sha1-wBb0IDCuKTLxTkdIs5odmg4lDmY=
+vue-router@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.5.0.tgz#ae49da16a2939f8d28d66d5784b14167d661192f"
+  integrity sha1-rknaFqKTn40o1m1XhLFBZ9ZhGS8=
 
 vue-style-loader@4.1.2, vue-style-loader@^4.0.1:
   version "4.1.2"
