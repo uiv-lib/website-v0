@@ -6424,10 +6424,10 @@ sirv@^1.0.7:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-sitemap-webpack-plugin@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/sitemap-webpack-plugin/download/sitemap-webpack-plugin-1.0.0.tgz?cache=0&sync_timestamp=1605200311688&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsitemap-webpack-plugin%2Fdownload%2Fsitemap-webpack-plugin-1.0.0.tgz#81638042e3a81c98ebb37e5190385533503fb25c"
-  integrity sha1-gWOAQuOoHJjrs35RkDhVM1A/slw=
+sitemap-webpack-plugin@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/sitemap-webpack-plugin/download/sitemap-webpack-plugin-1.1.0.tgz#66e6326a363418af2e1346706c689fe622222c47"
+  integrity sha1-ZuYyajY0GK8uE0ZwbGif5iIiLEc=
   dependencies:
     schema-utils "^3.0.0"
     sitemap "^6.0.0"
