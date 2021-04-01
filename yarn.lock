@@ -5388,10 +5388,10 @@ postcss-discard-overridden@^4.0.1:
   dependencies:
     postcss "^7.0.0"
 
-postcss-import@14.0.0:
-  version "14.0.0"
-  resolved "https://registry.npm.taobao.org/postcss-import/download/postcss-import-14.0.0.tgz?cache=0&sync_timestamp=1608215267498&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss-import%2Fdownload%2Fpostcss-import-14.0.0.tgz#3ed1dadac5a16650bde3f4cdea6633b9c3c78296"
-  integrity sha1-PtHa2sWhZlC94/TN6mYzucPHgpY=
+postcss-import@14.0.1:
+  version "14.0.1"
+  resolved "https://registry.npm.taobao.org/postcss-import/download/postcss-import-14.0.1.tgz?cache=0&sync_timestamp=1617232242063&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss-import%2Fdownload%2Fpostcss-import-14.0.1.tgz#6a3f8f2ce74a95fc7c72ecfe3eddfa0e9124e677"
+  integrity sha1-aj+PLOdKlfx8cuz+Pt36DpEk5nc=
   dependencies:
     postcss-value-parser "^4.0.0"
     read-cache "^1.0.0"
