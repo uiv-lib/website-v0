@@ -4681,10 +4681,10 @@ nan@^2.12.1:
   resolved "https://registry.npm.taobao.org/nan/download/nan-2.14.1.tgz?cache=0&sync_timestamp=1589682780413&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnan%2Fdownload%2Fnan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha1-174036MQW5FJTDFHCJMV7/iHSwE=
 
-nanoid@^3.1.20:
-  version "3.1.20"
-  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
-  integrity sha1-utwmPGsdzxS3HvqoX2q0wdbPx4g=
+nanoid@^3.1.22:
+  version "3.1.22"
+  resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.22.tgz?cache=0&sync_timestamp=1615820387109&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnanoid%2Fdownload%2Fnanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
+  integrity sha1-s1+Pt9FRmQqK69WqUBXAPPcm+EQ=
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -5703,13 +5703,13 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "https://registry.npm.taobao.org/postcss-value-parser/download/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
 
-postcss@8.2.8:
-  version "8.2.8"
-  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.2.8.tgz#0b90f9382efda424c4f0f69a2ead6f6830d08ece"
-  integrity sha1-C5D5OC79pCTE8PaaLq1vaDDQjs4=
+postcss@8.2.9:
+  version "8.2.9"
+  resolved "https://registry.npm.taobao.org/postcss/download/postcss-8.2.9.tgz?cache=0&sync_timestamp=1617137095020&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss%2Fdownload%2Fpostcss-8.2.9.tgz#fd95ff37b5cee55c409b3fdd237296ab4096fba3"
+  integrity sha1-/ZX/N7XO5VxAmz/dI3KWq0CW+6M=
   dependencies:
     colorette "^1.2.2"
-    nanoid "^3.1.20"
+    nanoid "^3.1.22"
     source-map "^0.6.1"
 
 postcss@^6.0.1, postcss@^6.0.23, postcss@^6.0.8:
