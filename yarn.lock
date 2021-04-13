@@ -7313,10 +7313,10 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webpack-bundle-analyzer@4.4.0:
-  version "4.4.0"
-  resolved "https://registry.npm.taobao.org/webpack-bundle-analyzer/download/webpack-bundle-analyzer-4.4.0.tgz#74013106e7e2b07cbd64f3a5ae847f7e814802c7"
-  integrity sha1-dAExBufisHy9ZPOlroR/foFIAsc=
+webpack-bundle-analyzer@4.4.1:
+  version "4.4.1"
+  resolved "https://registry.npm.taobao.org/webpack-bundle-analyzer/download/webpack-bundle-analyzer-4.4.1.tgz#c71fb2eaffc10a4754d7303b224adb2342069da1"
+  integrity sha1-xx+y6v/BCkdU1zA7IkrbI0IGnaE=
   dependencies:
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
